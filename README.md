@@ -18,7 +18,7 @@ For detailed descriptions of these campaigns, please refer to:
 - Rabault et al. (2024)
 
 The data is also available on other GitHub repositories:  
-- [[URL1](https://github.com/jerabaul29/data_release_sea_ice_drift_waves_in_ice_marginal_ice_zone_2022)](#)  
+- [[data_release_sea_ice_drift_waves_in_ice_marginal_ice_zone_2022](https://github.com/jerabaul29/data_release_sea_ice_drift_waves_in_ice_marginal_ice_zone_2022)](#)  
 - [URL2](#)
 
 ---
