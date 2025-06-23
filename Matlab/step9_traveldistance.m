@@ -2,6 +2,7 @@ clear;clc;
 close all
 
 %NOTICE: NEED CHANGE POSSIBLE WAVE DIRECTION RANGE
+%purpose: calculate the distance between the buoy and the ice edge. 
 
 
 % loop data
