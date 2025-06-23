@@ -1,6 +1,7 @@
-% This step has been moved to tetralith due to large data size
 clear;clc;
 close all
+
+% purpose:  prepare a simple Wavewatch III experiment to calculate wave source terms. 
 
 filedir='output/';
 list=importdata([filedir,'list_rotated.mat']); % a list containg variables that have been rotated 
