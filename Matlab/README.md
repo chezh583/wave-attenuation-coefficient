@@ -1,4 +1,4 @@
-This folder contains code for use in MATLAB. All data processing steps are included.
+This folder contains code for use in MATLAB. All data processing steps for the 202007 dataset are included. Processing other datasets follows the same approach. 
 
 ### Purpose  
 Estimate the attenuation coefficient in three ways: the full method, the simple method, and the apparent attenuation.
