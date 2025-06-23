@@ -1,7 +1,8 @@
 clear;clc;
 close all
 
-%% read netcdf 
+%% read netcdf
+
 fname='2020_07.nc';
 ncdisp(fname)
 frq=ncread(fname,'frequency');
@@ -15,6 +16,7 @@ tp=ncread(fname,'tp');
 
 
 %% read model grids
+
 Glon=importdata('grid/gridgen_out_2km/Barents202007.x_ascii.txt');
 Glon=Glon/10000;
 Glon=flipud(Glon);
