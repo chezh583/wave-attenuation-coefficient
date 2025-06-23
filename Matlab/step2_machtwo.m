@@ -2,6 +2,8 @@
 clear;clc;
 close all
 
+% purpose: find simulataneous buoy pairs.
+
 %%
 load('output/X1.mat');
 load('output/X2.mat');
