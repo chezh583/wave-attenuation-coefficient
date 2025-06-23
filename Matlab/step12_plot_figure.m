@@ -3,6 +3,8 @@
 clear;clc;
 close all
 
+% purpose: plot the final results, the attenuation profiels as a function of frequency and spectral wave age. 
+
 frq=zeros(25,1);
 frq(1)=0.05;
 for i=2:25
