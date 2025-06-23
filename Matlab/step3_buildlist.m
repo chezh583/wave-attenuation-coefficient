@@ -1,6 +1,7 @@
 clear;clc;
 close all
 
+%purpose: build a matrix that contains all wave properties, enviromental forcings, time, locations. 
 %NOTICE: NEED CHANGE TIME_START IN APPENDIX SECTION
 
 fname='nest_result.nc'; % come from modelv14/nest/ww3.202102.nc
