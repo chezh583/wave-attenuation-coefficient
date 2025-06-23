@@ -15,10 +15,10 @@ Four datasets collected by OpenMetBuoy are used, including:
 OpenMetBuoy is an open-source, autonomous wave sensor. More information refers to [[OpenMetBuoy-v2021a](https://github.com/jerabaul29/OpenMetBuoy-v2021a)].
 
 For detailed descriptions of these campaigns, please refer to:  
-- Rabault et al. (2023)  
-- Rabault et al. (2024)
+- [[Rabault et al. (2023)](https://www.nature.com/articles/s41597-023-02160-9)]
+- [[Rabault et al. (2024)](http://arxiv.org/abs/2409.04151)]
 
-The data is also available on other GitHub repositories:  
+The data are available on other GitHub repositories:  
 - [[data_release_sea_ice_drift_waves_in_ice_marginal_ice_zone_2022](https://github.com/jerabaul29/data_release_sea_ice_drift_waves_in_ice_marginal_ice_zone_2022)]
 - [[2024_OpenMetBuoy_data_release_MarginalIceZone_SeaIce_OpenOcean](https://github.com/jerabaul29/2024_OpenMetBuoy_data_release_MarginalIceZone_SeaIce_OpenOcean)]
 
