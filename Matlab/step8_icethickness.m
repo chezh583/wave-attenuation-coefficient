@@ -1,6 +1,8 @@
 clear;clc;
 close all
 
+%purpose: get ice thickness data
+
 dic=importdata("interpolated_variables/dictionary.txt");
 list=importdata('output/list_rotated.mat');
 load("output/point_unique.mat"); %dimension: x,y,lon,lat, created from step1
