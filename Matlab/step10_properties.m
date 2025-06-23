@@ -1,6 +1,8 @@
 clear;clc;
 close all
 
+% purpose: calculate the significant wave height and the mean wave period. 
+
 % frq=importdata('output/buoy_frq.mat');
 % buoylist1=importdata('output/buoylist1.mat');
 % buoylist2=importdata('output/buoylist2.mat');
