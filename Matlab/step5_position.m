@@ -1,6 +1,8 @@
 clear;clc;
 close all
 
+%purpose: get a position matrix that describe which is upstream or downstream in a buoy pair. 
+
 l=importdata('output/list_rotated.mat');
 [m,n]=size(l);
 
