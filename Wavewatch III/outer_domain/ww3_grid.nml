@@ -144,7 +144,7 @@
 ! -------------------------------------------------------------------- !
 &GRID_NML
   GRID%NAME              =  'large'
-  GRID%NML               =  'namelists_IC4M6_ST4T471.nml'
+  GRID%NML               =  'namelists.nml'
   GRID%TYPE              =  'RECT'
   GRID%COORD             =  'CART'
   GRID%CLOS              =  'NONE'
