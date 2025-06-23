@@ -1,8 +1,32 @@
-# wave-attenuation-coefficient
-This repository is used to estimate wave's attenuation coefficients in the marginal ice zone. The resulting paper is "Wave Attenuation by Sea Ice in the Marginal Ice Zone: Insights from Four Campaigns near Svalbard", with URL:www.temp.com
+# Wave Attenuation in the Marginal Ice Zone
 
-1) Data availability.
-Four datasets collected by OpenMetBuoy are used, including 202007, 202102, AWI UTOKYO and CHALMERS. The reader is referred to Rabault et al. (2023) and Rabault et al. (2024) for explicit description of these campaigns. The data is available on other github repositories: url1, url2. 
+This repository is used to estimate wave attenuation coefficients in the marginal ice zone.  
+The resulting paper is:  
+**Wave Attenuation by Sea Ice in the Marginal Ice Zone: Insights from Four Campaigns near Svalbard**  
+(URL: [www.temp.com](http://www.temp.com))
 
-2) Work flow:
-   here attach a figure.
+---
+
+## Data Availability
+
+Four datasets collected by OpenMetBuoy are used, including:  
+- 202007  
+- 202102  
+- AWI UTOKYO  
+- CHALMERS  
+
+For detailed descriptions of these campaigns, please refer to:  
+- Rabault et al. (2023)  
+- Rabault et al. (2024)
+
+The data is also available on other GitHub repositories:  
+- [URL1](#)  
+- [URL2](#)
+
+---
+
+## Workflow
+
+*Here attach a figure illustrating the workflow.*
+
+![Workflow Diagram](workflow.png)  
