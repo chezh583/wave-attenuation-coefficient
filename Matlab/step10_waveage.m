@@ -1,6 +1,8 @@
 clear;clc;
 close all
 
+% purpose: calculate the spectral wave age for each attenuation profile.
+
 list=importdata('output/list_rotated.mat');
 dic=importdata("interpolated_variables/dictionary.txt");
 len=length(dic);
