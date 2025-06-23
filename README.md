@@ -12,15 +12,15 @@ Four datasets collected by OpenMetBuoy are used, including:
 - 202102  
 - AWI UTOKYO  
 - CHALMERS  
-OpenMetBuoy is an open-source, autonomous wave sensor. More information refers to 
+OpenMetBuoy is an open-source, autonomous wave sensor. More information refers to [[OpenMetBuoy-v2021a](https://github.com/jerabaul29/OpenMetBuoy-v2021a)].
 
 For detailed descriptions of these campaigns, please refer to:  
 - Rabault et al. (2023)  
 - Rabault et al. (2024)
 
 The data is also available on other GitHub repositories:  
-- [[data_release_sea_ice_drift_waves_in_ice_marginal_ice_zone_2022](https://github.com/jerabaul29/data_release_sea_ice_drift_waves_in_ice_marginal_ice_zone_2022)](#) 
-- [2024_OpenMetBuoy_data_release_MarginalIceZone_SeaIce_OpenOcean]([#](https://github.com/jerabaul29/2024_OpenMetBuoy_data_release_MarginalIceZone_SeaIce_OpenOcean))
+- [[data_release_sea_ice_drift_waves_in_ice_marginal_ice_zone_2022](https://github.com/jerabaul29/data_release_sea_ice_drift_waves_in_ice_marginal_ice_zone_2022)]
+- [[2024_OpenMetBuoy_data_release_MarginalIceZone_SeaIce_OpenOcean](https://github.com/jerabaul29/2024_OpenMetBuoy_data_release_MarginalIceZone_SeaIce_OpenOcean)]
 
 ---
 
