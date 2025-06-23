@@ -1,9 +1,7 @@
 # Wave Attenuation in the Marginal Ice Zone
 
 This repository is used to estimate wave attenuation coefficients in the marginal ice zone.  
-The resulting paper is:  
-**Wave Attenuation by Sea Ice in the Marginal Ice Zone: Insights from Four Campaigns near Svalbard**  
-(URL: [www.temp.com](http://www.temp.com))
+The resulting paper is:  **Wave Attenuation by Sea Ice in the Marginal Ice Zone: Insights from Four Campaigns near Svalbard**  (URL: [www.temp.com](http://www.temp.com))
 
 ---
 
