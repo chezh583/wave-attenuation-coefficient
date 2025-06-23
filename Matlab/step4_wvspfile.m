@@ -1,6 +1,10 @@
 clear;clc;
 close all 
 
+
+% purpose: convert the one-dimensional wave spectrum to two-dimensional wave spectrum, by combining buoy-collected data and wave simulation from Wavewatch III.
+
+
 load('output/list.mat');
 
 
