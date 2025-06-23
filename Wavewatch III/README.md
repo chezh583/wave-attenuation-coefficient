@@ -12,5 +12,6 @@ The model configuration employs a one-way nesting approach, consisting of an out
 
 ### Folder Structure  
 - `outer_domain/` – Contains code for wave simulation in the outer domain, using the 202007 dataset as an example.  
-- `inner_domain/` – Contains code for wave simulation in the inner domain, using the 202007 dataset as an example.  
+- `inner_domain/` – Contains code for wave simulation in the inner domain, using the 202007 dataset as an example.
+- `source_term/` – A simple WW3 model setup to calculate wave source terms (including Sin, Sds, Snl), using the 202007 dataset as an example.
 - `switch` – A file specifying model options, used in the `bin/` directory of WAVEWATCH III.
