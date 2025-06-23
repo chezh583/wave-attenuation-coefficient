@@ -8,7 +8,7 @@ Wave simulations were conducted using the WAVEWATCH III (WW3) model, version 6.0
 The model configuration employs a one-way nesting approach, consisting of an outer and an inner computational domain:
 
 - The **outer domain** uses a half polar stereographic projection grid with a spatial resolution of 10 km, covering the majority of the North Atlantic Ocean.  
-- The **inner domain**, with a finer resolution of 2 km, focuses on the seas surrounding the Svalbard archipelago, where the OMBs were deployed.
+- The **inner domain**, with a finer resolution of 2 km, focuses on the seas surrounding Svalbard, where the OMBs were deployed.
 
 ### Folder Structure  
 - `outer_domain/` – Contains code for wave simulation in the outer domain, using the 202007 dataset as an example.  
