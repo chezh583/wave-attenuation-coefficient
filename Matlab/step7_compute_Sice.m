@@ -1,6 +1,7 @@
 clear;clc;
 close all
 
+%purpose: estimate attenuation coefficients. 
 
 %% dispersion relation, mass-loading model
 frq=zeros(25,1);
