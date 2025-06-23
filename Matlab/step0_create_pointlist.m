@@ -1,6 +1,8 @@
 clear;clc;
 close all
 
+%purpose: get buoy locations on the Wavewatch III model. 
+
 %% read netcdf
 
 fname='2020_07.nc';
