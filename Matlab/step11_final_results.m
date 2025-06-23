@@ -3,6 +3,8 @@
 clear;clc;
 close all
 
+% purpose: filtered out noise data.
+
 frq=zeros(25,1);
 frq(1)=0.05;
 for i=2:25
@@ -61,14 +63,6 @@ for i=1:length(dx)
             out_ki(j,i)=nan;
             out_ki_simple(j,i)=nan;
         end
-
-        % if(sum(isnan(out_ki(:,i)))>4)
-        %     index(i)=0;
-        % end
-
-        % if(max(out_ki(1:5,i))>1e-3)
-        %     index(i)=0;
-        % end
     end
 end
 
@@ -79,14 +73,6 @@ hold on
 loglog(frq,obs_spec_2);
 loglog(frq,noise*scalenum)
 
-%%
-
-for i=1:len
-    if(disparity(i)==1 && high_HS(i)==1)%&& buoy1_age(i)>1 && buoy2_age(i)>1)
-    else
-        index(i)=0;
-    end
-end
 
 
 alpha=alpha(:,find(index==1));
