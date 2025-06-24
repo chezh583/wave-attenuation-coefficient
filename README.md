@@ -14,8 +14,6 @@ Four datasets collected by OpenMetBuoy are used, including:
 - AWI UTOKYO  
 - CHALMERS  
 
-OpenMetBuoy is an open-source, autonomous wave sensor. More information can be found at  
-[[OpenMetBuoy-v2021a](https://github.com/jerabaul29/OpenMetBuoy-v2021a)].
 
 For detailed descriptions of these campaigns, please refer to:  
 - [[Rabault et al. (2023)](https://www.nature.com/articles/s41597-023-02160-9)]  
