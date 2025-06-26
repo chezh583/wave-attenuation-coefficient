@@ -18,8 +18,6 @@ These datasets are available on other GitHub repositories:
 - [[data_release_sea_ice_drift_waves_in_ice_marginal_ice_zone_2022](https://github.com/jerabaul29/data_release_sea_ice_drift_waves_in_ice_marginal_ice_zone_2022)]  
 - [[2024_OpenMetBuoy_data_release_MarginalIceZone_SeaIce_OpenOcean](https://github.com/jerabaul29/2024_OpenMetBuoy_data_release_MarginalIceZone_SeaIce_OpenOcean)]
 
-
-
 ---
 
 ## Workflow
@@ -27,3 +25,12 @@ These datasets are available on other GitHub repositories:
 *Here attach a figure illustrating the workflow.*
 
 ![Workflow Diagram](workflow.png "Workflow Diagram")
+
+
+---
+
+### Folder Structure  
+- `MATLAB/` – Contains code for wave simulation in the outer domain, using the 202007 dataset as an example.  
+- `WaveWatch/` – Contains code for wave simulation in the inner domain, using the 202007 dataset as an example.
+- `Results/` – A simple WW3 model setup to calculate wave source terms (including Sin, Sds, Snl), using the 202007 dataset as an example.
+
