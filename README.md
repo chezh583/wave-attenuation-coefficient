@@ -20,6 +20,13 @@ These datasets are available on other GitHub repositories:
 
 ---
 
+### Folder Structure  
+- `Matlab/` – Codes used in Matalb 
+- `WaveWatch III/` – Codes used in WaveWatch III
+- `Results/` – Matrices of attenaution coefficients 
+
+---
+
 ## Workflow
 
 *Here attach a figure illustrating the workflow.*
@@ -27,10 +34,5 @@ These datasets are available on other GitHub repositories:
 ![Workflow Diagram](workflow.png "Workflow Diagram")
 
 
----
 
-### Folder Structure  
-- `Matlab/` – Codes used in Matalb 
-- `WaveWatch III/` – Codes used in WaveWatch III
-- `Results/` – Matrices of attenaution coefficients 
 
