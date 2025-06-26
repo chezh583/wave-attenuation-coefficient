@@ -6,7 +6,7 @@ The resulting paper is: **Wave Attenuation by Sea Ice in the Marginal Ice Zone: 
 
 ---
 
-## Data Availability
+## OpenMetBuoy datasets
 
 Four datasets collected by OpenMetBuoy are used, including:  
 - 202007  
