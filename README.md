@@ -30,7 +30,7 @@ These datasets are available on other GitHub repositories:
 ---
 
 ### Folder Structure  
-- `MATLAB/` – Contains code for wave simulation in the outer domain, using the 202007 dataset as an example.  
-- `WaveWatch/` – Contains code for wave simulation in the inner domain, using the 202007 dataset as an example.
-- `Results/` – A simple WW3 model setup to calculate wave source terms (including Sin, Sds, Snl), using the 202007 dataset as an example.
+- `Matlab/` – Codes used in Matalb 
+- `WaveWatch III/` – Codes used in WaveWatch III
+- `Results/` – Matrices of attenaution coefficients 
 
