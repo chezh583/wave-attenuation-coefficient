@@ -118,7 +118,8 @@ for i=1:m
             ucur1=UCUR2(i); vcur1=VCUR2(i);ucur2=UCUR1(i); vcur2=VCUR1(i);
             sic1=ICE2(i); sic2=ICE1(i);
         end
-
+        Eftheta1(find(Eftheta1==0))=1e-10;
+        Eftheta2(find(Eftheta2==0))=1e-10;
         D=position(i,3);
         cut=ceil(D/2000)+1;
         cutnum(flag)=cut;
@@ -134,9 +135,11 @@ for i=1:m
 
         %apparent attenuation, this might caus nan and inf in Alpha due to
         %measuring error
-        Alpha1=log(Eftheta1./Eftheta2)/(2*D);
-        Alpha2=log(Eftheta2./Eftheta1)/(2*D);
+        % Alpha1=log(Eftheta1./Eftheta2)/(2*D);
+        % Alpha2=log(Eftheta2./Eftheta1)/(2*D);
 
+        A=log10(Eftheta1);
+        B=log10(Eftheta2);
 
         for ic=1:cut
 
@@ -154,21 +157,20 @@ for i=1:m
             new_nc_name=[directory,'cut',num2str(ic),'.nc'];
             % interp_wvsp=Eftheta1*(cut-ic)/(cut-1) + Eftheta2*(ic-1)/(cut-1);
             interp_wvsp=zeros(24,25);
-            % eliminate nan, inf, -inf. Use orignal linear interpolation
-            % instead for those points. 
-            for indx=1:24
-                for indy=1:25                    
-                    if(Eftheta1(indx,indy)>Eftheta2(indx,indy))
-                        interp_wvsp(indx,indy)=Eftheta1(indx,indy)./exp(2*Alpha1(indx,indy)*Dic);
-                    else
-                        interp_wvsp(indx,indy)=Eftheta2(indx,indy)./exp(2*Alpha2(indx,indy)*Dic);
-                    end
-                    if(interp_wvsp(indx,indy)>-10000 && interp_wvsp(indx,indy)<10000)
-                    else
-                        interp_wvsp(indx,indy)=0;
-                    end
-                end
-            end
+
+            % for indx=1:24
+            %     for indy=1:25                    
+            %         interp_wvsp(indx,indy)=Eftheta1(indx,indy)./exp(2*Alpha1(indx,indy)*Dic);
+            %         if(interp_wvsp(indx,indy)>-10000 && interp_wvsp(indx,indy)<10000)
+            %         else
+            %             interp_wvsp(indx,indy)=0;
+            %         end
+            %     end
+            % end
+            alpha= (ic-1) / (cut-1);
+            interp_wvsp=(1 - alpha) * A + alpha * B;
+            interp_wvsp=10.^interp_wvsp;
+            interp_wvsp(isnan(interp_wvsp))=0;
             createnc(new_nc_name,nc_frq,nc_dir,interp_wvsp)
         end
 
@@ -236,5 +238,6 @@ end
 %    subplot(2,5,ic)
 %    wvsp(nc_dir,nc_frq,sp)
 %end
+
 
 
